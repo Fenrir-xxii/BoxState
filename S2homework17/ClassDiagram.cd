@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="myException">
+    <Position X="4.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAEAAAAAACA=</HashCode>
+      <FileName>S2homework17.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateOfBox">
+    <Position X="6.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIABAAAAAAAAAAAACAAAAIABAAAA=</HashCode>
+      <FileName>S2homework17.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Box">
+    <Position X="2" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAABgQAAAAAAAAAABGAAAAAAAAAAA=</HashCode>
+      <FileName>S2homework17.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BOX_STATE">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAAAAgAAA=</HashCode>
+      <FileName>S2homework17.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

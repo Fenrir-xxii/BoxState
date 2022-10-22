@@ -24,6 +24,7 @@
     <ProjectGuid>{6992cd6a-9059-46fd-acae-26ff173b5196}</ProjectGuid>
     <RootNamespace>S2homework17</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>S2homework18</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -129,7 +130,7 @@
   <ItemGroup>
     <ClCompile Include="Console.cpp" />
     <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="S2homework17.cpp" />
+    <ClCompile Include="S2homework18.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="console.h" />

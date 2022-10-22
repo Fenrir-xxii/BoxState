@@ -149,7 +149,7 @@ public:
     void closeBox();
     void sealBox();
     void sendBox();
-    void arriveBox();
+    void deliverBox();
     BOX_STATE getCurrentState();
 };
 
@@ -173,7 +173,7 @@ void Box::sendBox()
     this->state.setNewState(BOX_STATE::SENT);
 }
 
-void Box::arriveBox()
+void Box::deliverBox()
 {
     this->state.setNewState(BOX_STATE::DELIVERED);
 }
@@ -280,7 +280,7 @@ int main()
                 }
                 else if (selection == BOX_STATE::DELIVERED)
                 {
-                    myBox.arriveBox();
+                    myBox.deliverBox();
                 }
             }
             catch (myException e)
